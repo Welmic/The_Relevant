@@ -48,6 +48,12 @@ video{
     text-decoration: none;
 }
 
+.titre2{
+    background-color: #e4d3cb;
+    color: black;
+    text-decoration: none;
+}
+
 .bg2{
     background: url(assets/bg2.png) no-repeat center center/cover;
     height: 30em;
@@ -59,4 +65,16 @@ a:hover{
 
 .site-content {
 	flex: 1;
+}
+
+.titre2:hover{
+    color: black
+}
+
+.carousel-control-next-icon{
+    background-image: url(assets/right-arrow.svg)
+}
+
+.carousel-control-prev-icon{
+    background-image: url(assets/left-arrow.svg)
 }
